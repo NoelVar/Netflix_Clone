@@ -1,16 +1,20 @@
 import './App.css'
 import Hero from './components/Hero'
-import MovieList from './components/MovieList'
 import Header from './components/Header'
+import Ad from './components/Ad'
+import TrendingNow from './components/TrendingNow'
 
 function App() {
 
   return (
-      <div className='bg-[#1a1a1a] text-white h-screen'>
+    <main>
+      <div className='min-h-screen bg-background text-foreground transition-colors duration-300'>
         <Header />
         <Hero />
-        <MovieList />
+        <Ad />
+        <TrendingNow />
       </div>
+    </main>
   )
 }
 
