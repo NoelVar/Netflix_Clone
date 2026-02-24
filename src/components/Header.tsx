@@ -1,7 +1,14 @@
+import SearchBar from "./SearchBar";
+
 const Header = () => {
     return (
-        <div className="py-5 text-5xl font-bold mx-auto container">
-            <h1 className="lg:text-4xl font-bold text-red-600 py-2">NETFLIX</h1>
+        <div className="fixed top-0 left-0 right-0 z-[100] py-5">
+            <div className="max-w-6xl mx-auto px-6 md:px-6 flex justify-between items-center">
+                <h1 className="text-2xl lg:text-4xl font-bold text-red-600">NETFLIX</h1>
+                <div>
+                    <SearchBar />
+                </div>
+            </div>
         </div>
     )
 }
