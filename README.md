@@ -1,6 +1,10 @@
 # Netflix Clone using React + TypeScript + Vite
 
-This project was developed based on <a href='https://shrutikapoor.dev/'>Shruti Kapoor</a>'s course. The app was developed using React, Vite, TypeScript, and Tailwind, just to mention the most notable ones. 
+This project was developed based on <a href='https://shrutikapoor.dev/'>Shruti Kapoor</a>'s course. The app was developed using React, Vite, TypeScript, and Tailwind. 
+
+## Snippet of the web-application
+
+![Demo](./src/assets/site.png)
 
 ## Tech Stack
 <ul>
